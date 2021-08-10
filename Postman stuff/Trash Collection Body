@@ -1,0 +1,31 @@
+{
+    "timestamp": "2021-08-09T15:41:01.00Z",
+    "referenceId": "eielectric2221800f44-436a-4c47-8d9f-e14356bb010c",
+    "expiryTime": "2021-08-09T15:20:01.00Z",
+    "event": {
+        "name": "AMAZON.MessageAlert.Activated",
+        "payload": {
+            "state": {
+                "status": "UNREAD",
+                "freshness": "NEW"
+            },
+            "messageGroup": {
+                "creator": {
+                    "name": "Dean"
+                },
+                "count": 5
+            }
+        }
+    },
+    "relevantAudience": {
+        "type": "Unicast",
+        "payload": {
+            "user": ""
+        }
+    /*FOR MULTICAST*/
+    /*"relevantAudience": {
+        "type": "Multicast",
+        "payload": {
+        }*/
+    }
+}
