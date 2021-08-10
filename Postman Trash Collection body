@@ -1,0 +1,26 @@
+{
+    "timestamp": "2021-08-09T15:41:01.00Z",
+    "referenceId": "eielectric2221800f44-436a-4c47-8d9f-e14356bb010c",
+    "expiryTime": "2021-08-09T15:20:01.00Z",
+    "event": {
+        "name": "AMAZON.MessageAlert.Activated",
+        "payload": {
+            "state": {
+                "status": "UNREAD",
+                "freshness": "NEW"
+            },
+            "messageGroup": {
+                "creator": {
+                    "name": "Dean"
+                },
+                "count": 5
+            }
+        }
+    },
+    "relevantAudience": {
+        "type": "Unicast",
+        "payload": {
+            "user": "amzn1.ask.account.AF7SCD7PPWPB5R4WWPTGGPUAXX5QIFUNZIKYCXD5N6GH3JU7MYQREW35YFX5FSYYS5272IAKBTB7ZCWY7GPFTHWWT7QUWOX35RP5HQYQJYQI3TNY6ABJYRA3ZGT7WKBIPLM4A7BWCJH7EVPZ3DN2IHAYXHNKJEO2ACANGUOSKTSPSK7D5NDVWPVIVZ3MSN2AYNGRNQKCB54FYKA"
+        }
+    }
+}
