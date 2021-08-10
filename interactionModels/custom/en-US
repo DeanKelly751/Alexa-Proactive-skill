@@ -1,0 +1,95 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ei electronics quote bot",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "RandomQuote",
+          "slots": [],
+          "samples": [
+            "tell me a random quote",
+            "random quote",
+            "give me a quote",
+            "tell me a quote"
+          ]
+        },
+        {
+          "name": "AuthorQuote",
+          "slots": [
+            {
+              "name": "author",
+              "type": "listOfAuthors"
+            }
+          ],
+          "samples": [
+            "give me a {author} quote",
+            "what did {author} once say",
+            "get a quote by {author}",
+            "tell me a quotation from {author}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Albert Einstein"
+              }
+            },
+            {
+              "name": {
+                "value": "Abraham Lincoln"
+              }
+            },
+            {
+              "name": {
+                "value": "Lincoln"
+              }
+            },
+            {
+              "name": {
+                "value": "Einstein"
+              }
+            }
+          ],
+          "name": "listOfAuthors"
+        }
+      ]
+    }
+  },
+  "version": "6"
+}
